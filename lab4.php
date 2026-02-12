@@ -20,8 +20,8 @@
 
 <section class="calculator">
 <form action="lab4response.php" method="post" class="calculator-inputs">    
-    <input type="text" name="first-number"><br>
-    <input type="text" name="second-number"><br>
+    $first_number = <input type="text" name="first_number"><br>
+    $ second_number = <input type="text" name="second_number"><br>
 <input type="submit">
 </form>
 </section>

@@ -14,8 +14,12 @@
 <h2>Aaliyah Evans</h2>
 </header>
 
-The sum of your two numbers is <?php echo $_POST["first-number" + "second-number"]; ?>!
+<?php
+$first_number = $_POST["first_number"];
+$second_number = $_POST["second_number"];
+?>
 
+The sum of your two numbers is <?php echo $first_number + $second_number;?>! 
 </body>
 
 </html>
